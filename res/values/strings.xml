@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">DicTIC
+</string>
+    <string name="search_label">Dicionário</string>
+    <string name="search_hint">Pesquisar no Dicionário</string>
+    <string name="menu_search">Pesquisar..
+</string>
+    <string name="settings_description">Definição da Palavra</string>
+    <string name="search_instructions">Pressione Tecla Menu</string>
+    <plurals name="search_results">
+      <item quantity="one">%1$d resultados para \"%2$s\": </item>
+      <item quantity="other">%1$d resultados para \"%2$s\": </item>
+    </plurals>
+    <string name="no_results">Não achei nada  \"%s\"</string>
+</resources>

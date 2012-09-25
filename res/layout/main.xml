@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    
+    <TextView
+            android:id="@+id/text"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="20dp"
+            android:text="@string/search_instructions"
+            android:background="@android:drawable/title_bar"	
+            android:layout_x="100px" 
+            android:layout_y="20px"
+            android:layout_height="wrap_content" android:layout_width="fill_parent"/>
+                   
+    <ListView
+            android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+          />
+    <TextView android:layout_gravity="center_horizontal" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/tvInfo1" 
+    android:text="Junior - web2ajax@gmail.com" 
+    android:layout_marginTop="20px" 
+    android:layout_width="wrap_content"></TextView>
+    <DigitalClock android:textSize="dp" 
+    android:layout_height="wrap_content" 
+    android:text="DigitalClock" 
+    android:id="@+id/digitalClock1" 
+    android:gravity="center" 
+    android:layout_width="fill_parent">
+    </DigitalClock>
+	
+    <ImageButton android:clickable="true"
+     		android:id="@+id/buscar" 
+    		android:layout_gravity="center|center_vertical|center_horizontal|clip_horizontal" 
+     		android:src="@drawable/ic_menu_search" android:layout_width="fill_parent" android:layout_height="wrap_content">
+     </ImageButton>
+</LinearLayout>
+
+
